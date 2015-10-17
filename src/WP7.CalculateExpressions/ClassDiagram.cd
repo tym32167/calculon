@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WP7.CalculateExpressions.Operations.UnaryOperation" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Operations\UnaryOperation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WP7.CalculateExpressions.Expressions.Expression" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAABAABAAABAAAAEAAAAAggAAAAAA=</HashCode>
+      <FileName>Expressions\Expression.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WP7.CalculateExpressions.Operations.BinaryOperation" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Operations\BinaryOperation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WP7.CalculateExpressions.Recognizers.BinaryOperationRecognizer" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAIAEAQABAAAAAAAAAAAAAAAABAAEAAAAAAAA=</HashCode>
+      <FileName>Recognizers\BinaryOperationRecognizer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WP7.CalculateExpressions.Recognizers.UnaryFunctionRecognizer" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACABAAAAAABAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Recognizers\UnaryFunctionRecognizer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="WP7.CalculateExpressions.Executors.IOperationExecutor" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Executors\IOperationExecutor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WP7.CalculateExpressions.Expressions.IExpression" Collapsed="true">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAABAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Expressions\IExpression.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WP7.CalculateExpressions.Operations.IOperation" Collapsed="true">
+    <Position X="10.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Operations\IOperation.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WP7.CalculateExpressions.RecognizerProviders.IOperationRecognizerProvider" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RecognizerProviders\IOperationRecognizerProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WP7.CalculateExpressions.Recognizers.IOperationRecognizer" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Recognizers\IOperationRecognizer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WP7.CalculateExpressions.OperationProviders.IBinaryOperationProvider" Collapsed="true">
+    <Position X="6.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProviders\IBinaryOperationProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="WP7.CalculateExpressions.OperationProviders.IUnaryOperationProvider" Collapsed="true">
+    <Position X="6.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OperationProviders\IUnaryOperationProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
